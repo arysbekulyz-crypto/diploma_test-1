@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Морфология PRO 4.0</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="topbar">
+        <div class="logo">Морфология PRO 4.0</div>
+        <nav>
+          <a href="#parts">Части речи</a>
+          <a href="#how">Как работать</a>
+        </nav>
+      </div>
+
+      <div class="hero" id="home">
+        <div>
+          <h1>Тренажёр по морфологии с отдельной страницей для каждой части речи</h1>
+          <p>
+            Теперь главная страница не тянет на себе весь курс сразу. Ученик выбирает нужную часть речи,
+            переходит на отдельную страницу и там получает теорию, схему, инфографику и практику без ощущения,
+            что его придавило одним очень старательным HTML-файлом.
+          </p>
+        </div>
+        <div class="hero-card">
+          <h3>Что внутри</h3>
+          <div class="hero-grid">
+            <div class="hero-mini">📘 Теория</div>
+            <div class="hero-mini">🧭 Схемы</div>
+            <div class="hero-mini">🎯 Задания</div>
+            <div class="hero-mini">📈 Прогресс</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="section" id="parts">
+        <div class="section-head">
+          <h2>Выбери часть речи</h2>
+          <span class="tag">4 отдельные страницы</span>
+        </div>
+
+        <div class="parts-grid">
+          <article class="part-card">
+            <div class="part-meta">Кто? Что?</div>
+            <h3>Имя существительное</h3>
+            <p>Предмет, понятие, явление, действие как название. Всё, что любит вопрос «что?» и не только.</p>
+            <div class="feature-list">
+              <div>• подробная теория</div>
+              <div>• инфографика и схема</div>
+              <div>• задания с выбором, вводом и drag&drop</div>
+            </div>
+            <a class="link-btn link-primary" href="pages/noun.html">Открыть страницу</a>
+          </article>
+
+          <article class="part-card">
+            <div class="part-meta">Какой? Какая? Какое?</div>
+            <h3>Имя прилагательное</h3>
+            <p>Признак предмета, согласование, ошибки по роду и числу — всё собрано отдельно, без давки.</p>
+            <div class="feature-list">
+              <div>• объяснение признака предмета</div>
+              <div>• согласование с существительным</div>
+              <div>• практические задания</div>
+            </div>
+            <a class="link-btn link-primary" href="pages/adjective.html">Открыть страницу</a>
+          </article>
+
+          <article class="part-card">
+            <div class="part-meta">Что делать? Что сделать?</div>
+            <h3>Глагол</h3>
+            <p>Действие, вид, время, лицо — на своей странице, где глагол может спокойно жить без соседского шума.</p>
+            <div class="feature-list">
+              <div>• вид и время глагола</div>
+              <div>• инфографика</div>
+              <div>• тренажёр по формам</div>
+            </div>
+            <a class="link-btn link-primary" href="pages/verb.html">Открыть страницу</a>
+          </article>
+
+          <article class="part-card">
+            <div class="part-meta">Указывает, но не называет</div>
+            <h3>Местоимение</h3>
+            <p>Разряды, роль в тексте и избавление от повторов. Полезная часть речи, скромная, но стратегически важная.</p>
+            <div class="feature-list">
+              <div>• теория и разряды</div>
+              <div>• примеры в контексте</div>
+              <div>• задания на замену и распознавание</div>
+            </div>
+            <a class="link-btn link-primary" href="pages/pronoun.html">Открыть страницу</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <div class="grid">
+          <article class="card">
+            <h3>Как теперь устроен сайт</h3>
+            <div class="theory-block">
+              <h4>1. Главная страница</h4>
+              <p>Здесь пользователь выбирает нужную часть речи. Это делает старт понятнее и убирает длинную бесконечную прокрутку.</p>
+            </div>
+            <div class="theory-block">
+              <h4>2. Отдельные страницы</h4>
+              <p>У каждой части речи теперь свой файл: теория, инфографика, схема и практика находятся в одном месте.</p>
+            </div>
+            <div class="theory-block">
+              <h4>3. Общие стили и общий JavaScript</h4>
+              <p>Повторяющийся код вынесен в отдельные файлы. Это значит, что править дизайн и поведение теперь проще и безопаснее.</p>
+            </div>
+          </article>
+
+          <aside class="card tip-box">
+            <h3>Что ещё можно сделать дальше</h3>
+            <p>Следующий логичный шаг — добавить страницу со всеми частями речи, которые будут подключаться по тому же шаблону: числительное, наречие, предлог, союз, частица.</p>
+            <p class="small-note">То есть сайт уже не монолит, а нормальная структура. HTML наконец-то перестаёт быть чемоданом без колёс.</p>
+          </aside>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    Морфология PRO 4.0 — главная страница теперь работает как меню, а не как бесконечный свиток испытаний.
+  </footer>
+</body>
+</html>
